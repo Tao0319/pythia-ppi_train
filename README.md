@@ -17,20 +17,20 @@ The training data must be provided as a CSV file containing the following column
    - Used as the target label for model training.
 
 Example CSV:
-```csv
+```
 pdb_id,mutation,ddG
 1ABC,AI123G,1.25
-...
+```
 
 # Train
 Run the training script with the following command:
 
-'''
+```
 python train.py <csv_path> <pdb_dir>
-'''
+```
 
 # example
-'''
+```
 python train.py ./data/skempi.csv ./pdbs
-'''
+```
 
